@@ -70,10 +70,10 @@ source devel/setup.bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.1 _turn:=0.8
 ```  
 
-* Launch ball_chaser and process_image nodes  
-```
-cd /home/workspace/catkin_ws/
-source devel/setup.bash
-roslaunch ball_chaser ball_chaser.launch
-```  
+### Evaluating the RTAB-Map database
+After a successful mapping we can evaluate the database with RTAB-Map's database viewer, that can be started with the following command:
+
+`rtabmap-databaseViewer ~/catkin_ws/src/Udacity-Robotics-SLAM/my_robot/database/rtabmap.db`
+![Database70][images/rtabmap_db_70.png]
+![Database609][images/rtabmap_db_609.png]
 
