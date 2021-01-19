@@ -1,6 +1,7 @@
 # RoboND-Robot-Map-My-World
-Project 3 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](https://youtu.be/u6Ax9PQRKWU)
 ![Jetbot_Model2](images/jetbot_model_2_small.png)  
+Project 3 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](https://youtu.be/u6Ax9PQRKWU)
+
 
 [![Demo_Video](/videos/RoboND-Robot-Map-My-World.gif)](https://youtu.be/u6Ax9PQRKWU)
 
