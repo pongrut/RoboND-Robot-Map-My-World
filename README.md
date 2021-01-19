@@ -69,6 +69,14 @@ cd /home/workspace/catkin_ws/
 source devel/setup.bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.1 _turn:=0.8
 ```  
+### Mapping
+1) The robot's simulated environment in Gazebo is the same as in the previous project:
+![alt text][image1]
+2) After manually driving the robot through the environment we can visualize the map (2D occupancy grid) of the environment and even the robot's path:
+![alt text][image4]
+3) In the visualizer tool of RTAB-Map we can see the RGBD pointcloud of the environment:
+![alt text][image5]
+
 
 ### Evaluating the RTAB-Map database
 After a successful mapping we can evaluate the database with RTAB-Map's database viewer, that can be started with the following command:
