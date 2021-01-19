@@ -75,7 +75,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.1 _turn:=0.8
 2) After manually driving the robot through the environment we can visualize the map (2D occupancy grid) of the environment and even the robot's path:
 ![alt text][image4]
 3) In the visualizer tool of RTAB-Map we can see the RGBD pointcloud of the environment:
-![alt text][image5]
+![PointCloud Shot1](images/pointcloud.png) 
 
 
 ### Evaluating the RTAB-Map database
