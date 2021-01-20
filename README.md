@@ -89,3 +89,5 @@ Once open, we will need to add some windows to get a better view of the relevant
 On the left is the 2D grid map in all of its updated iterations and the robot's path. In the middle, there are different images from the mapping process that can step through images to see all of the features from your detection algorithm. These features are in yellow, and the pink indicates where two images have features in common, and this information is being used to create neighboring links and loop closures.
 
 
+You can see the number of loop closures in the bottom left. The codes stand for the following: Neighbor, Neighbor Merged, Global Loop closure, Local loop closure by space, Local loop closure by time, User loop closure, and Prior link.
+
