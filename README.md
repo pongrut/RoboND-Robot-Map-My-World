@@ -68,7 +68,7 @@ source devel/setup.bash
 roslaunch my_robot teleop.launch
 ```  
 ### Creating the map
-Navigate robot Gazebo simulation with the Teleop terminal start by lower velocity. The goal gets three loop closures that will be sufficient for mapping the entire environment. 
+Navigate robot Gazebo simulation with the Teleop terminal start by lower velocity. The goal gets three loop closures that will be sufficient for mapping the entire environment.</br> 
 ![PointCloud Shot1](images/pointcloud_small.png) 
 
 
