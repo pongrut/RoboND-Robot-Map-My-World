@@ -80,7 +80,7 @@ roslaunch my_robot teleop.launch
 After a successful mapping we can evaluate the database with RTAB-Map's database viewer, that can be started with the following command:
 
 `rtabmap-databaseViewer ~/catkin_ws/src/Udacity-Robotics-SLAM/my_robot/database/rtabmap.db`
-![Database70](images/rtabmap_db_1052.png)
+![Database70](images/rtabmap_db_1118.png)
 
 
 [rtabmap.db](https://drive.google.com/file/d/1GiLPXxCMNAwcNP0wBklw8C7O_VvoNSE4/view?usp=sharing)
