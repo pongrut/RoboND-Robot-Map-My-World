@@ -61,7 +61,7 @@ roslaunch my_robot mapping.launch
 ```
 cd /home/workspace/catkin_ws/
 source devel/setup.bash
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.1 _turn:=0.8
+roslaunch my_robot teleop.launch
 ```  
 ### Mapping
 1) The robot's simulated environment in Gazebo is the same as in the previous project:
