@@ -74,13 +74,18 @@ Navigate robot Gazebo simulation with the Teleop terminal start by lower velocit
 
 
 ### Visualizing RTABMAP data
-After a successful mapping we can evaluate the database with RTAB-Map's database viewer, that can be started with the following command:
+Opening sample mapping database:
 Download the database from the my_robot to the local computer. [Link to download rtabmap.db](https://drive.google.com/file/d/1GiLPXxCMNAwcNP0wBklw8C7O_VvoNSE4/view?usp=sharing)
 ```
 cp ./rtabmap.db ~/catkin_ws/src/my_robot/database/
 rtabmap-databaseViewer ~/catkin_ws/src/my_robot/database/rtabmap.db
 ```  
-![DatabaseView](images/rtabmap_db_1118.png)
+Once open, we will need to add some windows to get a better view of the relevant information, so:
+* Say yes to using the database parameters
+* View -> Constraint View
+* View -> Graph View
 
+![DatabaseView](images/rtabmap_db_1118.png)
+On the left is the 2D grid map in all of its updated iterations and the robot's path. In the middle, there are different images from the mapping process that can step through images to see all of the features from your detection algorithm. These features are in yellow, and the pink indicates where two images have features in common, and this information is being used to create neighboring links and loop closures.
 
 
