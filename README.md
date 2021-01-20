@@ -39,19 +39,20 @@ git clone https://github.com/ros-teleop/teleop_twist_keyboard
 cd ..
 catkin_make
 ```
-![Screen Shot1](images/gazibo_sim_small.png) 
+
 * Launch my_robot in Gazebo to load both the world and plugins  
 ```
 cd /home/workspace/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot world.launch
 ```  
+![Screen Shot1](images/gazibo_sim_small.png) 
 
-* Launch AMCL package  
+* Launch RTAB-Map package  
 ```
 cd /home/workspace/catkin_ws/
 source devel/setup.bash
-roslaunch my_robot amcl.launch
+roslaunch my_robot mapping.launch
 ```  
 
 
