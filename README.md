@@ -79,9 +79,11 @@ roslaunch my_robot teleop.launch
 ### Evaluating the RTAB-Map database
 After a successful mapping we can evaluate the database with RTAB-Map's database viewer, that can be started with the following command:
 Copy the database from the my_robot to the local computer
-[rtabmap.db](https://drive.google.com/file/d/1GiLPXxCMNAwcNP0wBklw8C7O_VvoNSE4/view?usp=sharing)
-
-`rtabmap-databaseViewer ~/catkin_ws/src/my_robot/database/rtabmap.db`
+[Link to download rtabmap.db](https://drive.google.com/file/d/1GiLPXxCMNAwcNP0wBklw8C7O_VvoNSE4/view?usp=sharing)
+```
+cp rtabmap.db ~/catkin_ws/src/my_robot/database/
+rtabmap-databaseViewer ~/catkin_ws/src/my_robot/database/rtabmap.db
+```  
 ![DatabaseView](images/rtabmap_db_1118.png)
 
 
