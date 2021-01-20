@@ -49,7 +49,7 @@ roslaunch my_robot world.launch
 ![Screen Shot1](images/gazibo_sim_small.png) 
 
 * Launch RTAB-Map package  
- When you are done mapping, be sure to copy or move your database before moving on to map a new environment. Remember, relaunching the mapping node deletes any database in place on launch start up!
+OptionWhen you are done mapping, be sure to copy or move your database before moving on to map a new environment. Remember, relaunching the mapping node deletes any database in place on launch start up!
 ```
 cd /home/workspace/catkin_ws/
 source devel/setup.bash
