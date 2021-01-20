@@ -5,9 +5,6 @@ Project 4 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](
 
 [![Demo_Video](/videos/RoboND-Robot-Map-My-World.gif)](https://youtu.be/u6Ax9PQRKWU)
 
-
-![Screen Shot3](images/amcl_screen_shot03.jpg) 
-![Screen Shot4](images/amcl_screen_shot04.jpg) 
 ## Overview  
 In the Map My World project, the 2D occupancy grid, and 3D octomap are created in a simulated environment using Jetbot (mobile robot) with the RTAB-Map package.
 RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to develop robots that can map environments in 3D. RTAB-Map has good speed and memory management, and it provides custom developed tools for information analysis. 
