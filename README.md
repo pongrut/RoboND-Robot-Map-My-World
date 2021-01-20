@@ -47,7 +47,7 @@ roslaunch my_robot world.launch
 
 * Launch RTAB-Map package  
 
-Option 1: delete database when launch startup.
+Option 1: Delete database when launch startup.
 ```
 cd /home/workspace/catkin_ws/
 source devel/setup.bash
