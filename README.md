@@ -24,17 +24,9 @@ However, Jetbot model is very small can be driven **maximum at 0.l speed**.</br>
 ```
 sudo apt-get install ros-kinetic-navigation
 ```
-* ROS map_server package  
+* ROS rtabmap_ros package  
 ```
-sudo apt-get install ros-kinetic-map-server
-```
-* ROS move_base package  
-```
-sudo apt-get install ros-kinetic-move-base
-```
-* ROS amcl package  
-```
-sudo apt-get install ros-kinetic-amcl
+sudo apt-get install ros-kinetic-rtabmap-ros
 ```
 
 * ROS gazebo package  
