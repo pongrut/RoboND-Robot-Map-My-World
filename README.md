@@ -1,6 +1,6 @@
 # RoboND-Robot-Map-My-World
 
-Project 3 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](https://youtu.be/u6Ax9PQRKWU)
+Project 4 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](https://youtu.be/u6Ax9PQRKWU)
 
 
 [![Demo_Video](/videos/RoboND-Robot-Map-My-World.gif)](https://youtu.be/u6Ax9PQRKWU)
@@ -9,7 +9,7 @@ Project 3 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](
 ![Screen Shot3](images/amcl_screen_shot03.jpg) 
 ![Screen Shot4](images/amcl_screen_shot04.jpg) 
 ## Overview  
-In this project implement ROS AMCL package to accurately localize a Jetbot inside a map in the Gazebo simulation environments.
+In the Map My World project, the 2D occupancy grid, and 3D octomap are created in a simulated environment using Jetbot (mobile robot) with the RTAB-Map package.
 However, Jetbot model is very small can be driven **maximum at 0.l speed**.</br>
 ![Jetbot_Model2](images/jetbot_model_2_small.png)  
 ![Screen Shot1](images/gazibo_sim_small.png) 
