@@ -5,8 +5,8 @@ Project 3 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](
 
 [![Demo_Video](/videos/RoboND-Robot-Map-My-World.gif)](https://youtu.be/u6Ax9PQRKWU)
 
-![Screen Shot1](images/amcl_screen_shot01.jpg) 
-![Screen Shot2](images/amcl_screen_shot02.jpg) 
+![Screen Shot1](images/gazibo_sim.png.jpg) 
+![Screen Shot2](images/2D_occupancy_grid_path.png) 
 ![Screen Shot3](images/amcl_screen_shot03.jpg) 
 ![Screen Shot4](images/amcl_screen_shot04.jpg) 
 ## Overview  
