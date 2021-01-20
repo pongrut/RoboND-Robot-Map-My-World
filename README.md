@@ -54,7 +54,11 @@ cd /home/workspace/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot mapping.launch
 ```  
-
+```
+cd /home/workspace/catkin_ws/
+source devel/setup.bash
+roslaunch my_robot localization.launch
+```  
 
 **IMPORTANT!!! Jetbot model is very very small must keep speed not more than 0.1 otherwise it will be CRASHED**
 * Launch ROS Teleop Twist Keyboard 
