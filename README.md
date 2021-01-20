@@ -13,7 +13,7 @@ In the Map My World project, the 2D occupancy grid, and 3D octomap are created i
 RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to develop robots that can map environments in 3D. RTAB-Map has good speed and memory management, and it provides custom developed tools for information analysis. 
 However, Jetbot model is very small can be driven **maximum at 0.l speed**.</br></br>
 ![Jetbot_Model2](images/jetbot_model_2_small.png)  
-![Screen Shot1](images/gazibo_sim_small.png) 
+
 ![Screen Shot2](images/2D_occupancy_grid_path_small.png) 
 
 ## Prerequisites/Dependencies  
@@ -39,6 +39,7 @@ git clone https://github.com/ros-teleop/teleop_twist_keyboard
 cd ..
 catkin_make
 ```
+![Screen Shot1](images/gazibo_sim_small.png) 
 * Launch my_robot in Gazebo to load both the world and plugins  
 ```
 cd /home/workspace/catkin_ws/
