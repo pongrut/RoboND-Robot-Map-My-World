@@ -67,7 +67,7 @@ cd /home/workspace/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot teleop.launch
 ```  
-### Mapping
+### Visualizing RTABMAP data
 1) The robot's simulated environment in Gazebo is the same as in the previous project:
 ![alt text][image1]
 2) After manually driving the robot through the environment we can visualize the map (2D occupancy grid) of the environment and even the robot's path:
