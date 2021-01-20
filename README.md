@@ -19,11 +19,6 @@ However, Jetbot model is very small can be driven **maximum at 0.l speed**.</br>
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0  
 * ROS Kinetic  
-* ROS navigation package  
-
-```
-sudo apt-get install ros-kinetic-navigation
-```
 * ROS rtabmap_ros package  
 ```
 sudo apt-get install ros-kinetic-rtabmap-ros
