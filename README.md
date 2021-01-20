@@ -67,16 +67,12 @@ cd /home/workspace/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot teleop.launch
 ```  
-### Visualizing RTABMAP data
-1) The robot's simulated environment in Gazebo is the same as in the previous project:
-![alt text][image1]
-2) After manually driving the robot through the environment we can visualize the map (2D occupancy grid) of the environment and even the robot's path:
-![alt text][image4]
-3) In the visualizer tool of RTAB-Map we can see the RGBD pointcloud of the environment:
+### Creating the map
+Navigate robot Gazebo simulation with the Teleop terminal start by lower velocity. The goal gets three loop closures that will be sufficient for mapping the entire environment. 
 ![PointCloud Shot1](images/pointcloud_small.png) 
 
 
-### Evaluating the RTAB-Map database
+### Visualizing RTABMAP data
 After a successful mapping we can evaluate the database with RTAB-Map's database viewer, that can be started with the following command:
 Download the database from the my_robot to the local computer. [Link to download rtabmap.db](https://drive.google.com/file/d/1GiLPXxCMNAwcNP0wBklw8C7O_VvoNSE4/view?usp=sharing)
 ```
