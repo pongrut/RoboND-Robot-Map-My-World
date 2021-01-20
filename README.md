@@ -48,7 +48,8 @@ roslaunch my_robot world.launch
 ```  
 ![Screen Shot1](images/gazibo_sim_small.png) 
 
-* Launch RTAB-Map package  </br>
+* Launch RTAB-Map package  
+</br>
 Option 1: delete database when launch startup.
 ```
 cd /home/workspace/catkin_ws/
