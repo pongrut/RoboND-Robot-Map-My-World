@@ -75,7 +75,7 @@ Navigate robot Gazebo simulation with the Teleop terminal start by lower velocit
 
 ### Visualizing RTABMAP data
 Opening sample mapping database:
-Download the database from the my_robot to the local computer. [Link to download rtabmap.db](https://drive.google.com/file/d/1rVf_ZJMcCfOe24aFc5hnxoJpT_I9Wcdc/view?usp=sharing)
+Download the database from the my_robot to the local computer. [Link to download rtabmap.db](https://drive.google.com/file/d/1HBgunBDnrNIp43hBmqN_BkfCzBKsvfCo/view?usp=sharing)
 ```
 cp ./rtabmap.db ~/catkin_ws/src/my_robot/database/
 rtabmap-databaseViewer ~/catkin_ws/src/my_robot/database/rtabmap.db
