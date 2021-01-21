@@ -11,7 +11,7 @@ RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to 
 However, Jetbot model is very small can be driven **maximum at 0.l speed**.</br></br>
 ![Jetbot_Model2](images/jetbot_model_2_small.png)  
 
-![Screen Shot2](images/2D_grid_path.png) 
+![Screen Shot2](images/screen_shot.png) 
 
 ## Prerequisites/Dependencies  
 * Gazebo >= 7.0  
