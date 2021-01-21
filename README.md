@@ -72,9 +72,12 @@ Navigate robot Gazebo simulation with the Teleop terminal start by lower velocit
 
 ![PointCloud Shot1](images/pointcloud_small.png) 
 
+Occupancy Grid Result
+![Occupancy_Grid](images/occupancy_grid.png) 
+
 
 ### Visualizing RTABMAP data
-Opening sample mapping database:
+Opening mapping database:
 Download the database from the my_robot to the local computer. [Link to download rtabmap.db](https://drive.google.com/file/d/1HBgunBDnrNIp43hBmqN_BkfCzBKsvfCo/view?usp=sharing)
 ```
 cp ./rtabmap.db ~/catkin_ws/src/my_robot/database/
