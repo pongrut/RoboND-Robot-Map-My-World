@@ -85,8 +85,8 @@ Once open, we will need to add some windows to get a better view of the relevant
 * View -> Constraint View
 * View -> Graph View
 
-![DatabaseView](images/rtabmap_db_1118.png)
+![DatabaseView](images/rtabmap_db_1067.png)
 On the left is the 2D grid map in all of its updated iterations and the robot's path. In the middle, there are different images from the mapping process that can step through images to see all of the features from your detection algorithm. These features are in yellow, and the pink indicates where two images have features in common, and this information is being used to create neighboring links and loop closures.
 
-The number of loop closures in the bottom left of Graph view. The codes (N, NM, G, LS, LT, U, P) stand for the following: Neighbor, Neighbor Merged, Global Loop closure, Local loop closure by space, Local loop closure by time, User loop closure, and Prior link. This image shows that **the Global Loop Closures is 609 loop closures**. This tool can be a useful resource for checking if the environment is feature-rich enough to make global loop closures. The right environment has many features that can be associated in order to achieve loop closures.
+The number of loop closures in the bottom left of Graph view. The codes (N, NM, G, LS, LT, U, P) stand for the following: Neighbor, Neighbor Merged, Global Loop closure, Local loop closure by space, Local loop closure by time, User loop closure, and Prior link. This image shows that **the Global Loop Closures is 3072 loop closures**. This tool can be a useful resource for checking if the environment is feature-rich enough to make global loop closures. The right environment has many features that can be associated in order to achieve loop closures.
 
