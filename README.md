@@ -3,7 +3,7 @@
 Project 4 of Udacity Robotics Software Engineer Nanodegree Program [Video Clip](https://youtu.be/lTnyB84cQR8)
 
 
-[![Demo_Video](/videos/RoboND-Robot-Map-My-World.gif)](https://youtu.be/u6Ax9PQRKWU)
+[![Demo_Video](/videos/RoboND-Robot-Map-My-World.gif)](https://youtu.be/lTnyB84cQR8)
 
 ## Overview  
 In the Map My World project, the 2D occupancy grid, and 3D octomap are created in a simulated environment using Jetbot (mobile robot) with the RTAB-Map package.
